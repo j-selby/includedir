@@ -14,4 +14,4 @@ default = ["flate2"]
 [dependencies]
 phf = "0.7.16"
 
-flate2 = { version = "0.2.14", optional = true }
+flate2 = { version = "1.0", default-features = false, features = ["rust_backend"], optional = true}
